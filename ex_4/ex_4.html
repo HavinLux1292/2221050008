@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title> Form</title>
+    </head>
+    <body>
+        <h1> Form tạo thông tin</h1>
+        <form>
+            <div>
+                <p>Họ và tên: </p>
+                <input type="text" name="txt" >
+            </div>
+           
+            <div>
+                <P>Giới thiệu:</P>
+                <textarea name="giới thiệu"> </textarea>
+            </div>
+            <div>
+                <P>Email:</P>
+                <input type="email" name=" email">
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+            <div>
+                <p>Số điện thoại</p>
+                <input type="tel"
+                placeholder="Nhập số"
+                required
+                patern="([0]{1}([3,9,6,8]{1})([0-9]{8}))">
+            </div>
+            <div>
+                <p> Giới tính</p>
+                <input type="radio" name="gender" value="nam">Nam <br>
+                <input type="radio" name="gender" value="nữ">Nữ <br>
+            </div>
+            <div>
+                <p> Sở thích</p>
+                <input type="checkbox" name="hobby" value="game">game <br>
+                <input type="checkbox" name="hobby" value="sport">sport <br>
+                <input type="checkbox" name="hobby" value="mukbang">mukbang 
+            </div>
+            <div>
+                <p> Trình duyệt web</p>
+                <input list="browsers">
+                    <datalist id="browsers">
+                        <option value="IE">
+                        <option value="GG">
+                        <option value="Ch">
+                    </datalist>
+            </div>
+            <div>
+                <p> Trình duyệt web</p>
+                <select name="browsers">
+                    <option value="IE">IE</option>
+                    <option value="GG">GG</option>
+                    <option value="Ch">Ch</option>
+                </select>
+            </div>
+            <div>
+                0 <input type="range" id="a" value="50">100
+            </div>
+            <div>
+                <button>Click</button>
+                <input type="reset">
+            </div>
+            <div>
+                <iframe width="1030" height="579" src="https://www.youtube.com/embed/VU37vZn2310" title="BẬT MÍ QUY TRÌNH LÀM MÓN “VITAMIN GÂU GÂU” – ĐẠI TIỆC CHÚC MỪNG EM TRẦN HUỲNH THĂNG CHỨC QUẢN LÝ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </form>
+        <marquee>
+            ???????
+        </marquee>
+    </body>
+</html>
