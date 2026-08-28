@@ -1,0 +1,64 @@
+/* Xóa khoảng cách mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+/* Tiêu đề */
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Đoạn văn */
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Ô nhập dữ liệu */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Select */
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Nhóm Birthday */
+.birthday {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+/* Nút */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Khi đưa chuột vào nút */
+button:hover {
+    background-color: #0077c2;
+}
