@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+.danh_muc{
+    display:flex;
+}
+.logo{
+    width: 100px;
+    height:auto;
+}
+.danh_sach_muc{
+    display:flex;
+    list-style: none;
+    gap: 20px;
+}
+.lien_ket{
+    color:aliceblue;
+    text-decoration: none;
+}
+.search {
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+}
+.anh_phim_noi_bat{
+    width:100%;
+}
