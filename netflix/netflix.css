@@ -1,5 +1,7 @@
 body{
     background-color: black;
+    /* width:100%; */
+    height:100%
 }
 .danh_muc{
     display:flex;
@@ -22,6 +24,27 @@ body{
     height: 30px;
     margin-left: auto;
 }
+.phim_noi_bat{
+    width: 100%;
+    height: 15%
+    margin: 10px;
+}
 .anh_phim_noi_bat{
     width:100%;
+    height: 100%;
+}
+
+.danh_sach_phim{
+    height:80%;
+    display:flex;
+}
+.co_the_ban_chua_xem{
+    gap:20px;
+    display:flex;
+}
+.phim_hai_huoc{
+   display:flex; 
+}
+.hoat_hinh{
+    display:flex; 
 }
