@@ -26,7 +26,7 @@ body{
 }
 .phim_noi_bat{
     width: 100%;
-    height: 15%
+    height: 60vh;
     margin: 10px;
 }
 .anh_phim_noi_bat{
@@ -36,15 +36,18 @@ body{
 
 .danh_sach_phim{
     height:80%;
-    display:flex;
+    
 }
 .co_the_ban_chua_xem{
     gap:20px;
     display:flex;
+    overflow-x: auto
 }
 .phim_hai_huoc{
-   display:flex; 
+   gap:20px;
+    display:flex;
 }
 .hoat_hinh{
-    display:flex; 
+    gap:20px;
+    display:flex;
 }
